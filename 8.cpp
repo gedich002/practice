@@ -3,6 +3,8 @@
 using namespace std;
 int main()
 {
+    float alum,apro,des,p_ap,p_des;
+    
     cout << "Ingrese total de alumnos: ";
     cin>>alum;
 

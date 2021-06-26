@@ -3,9 +3,6 @@
 using namespace std;
 int main()
 {
-    int alum,apro,des;
-    float p_ap,p_des;
-
     cout << "Ingrese total de alumnos: ";
     cin>>alum;
 
@@ -17,7 +14,7 @@ int main()
     p_ap=(apro/alum)*100;
     p_des=100-p_ap;
 
-    cout << "El "<<p_ap; cout<<"% de los alumnos aprobaron y el "<<p_des; cout<<"% de los alumnos desaprobaron"
+    cout << "El "<<p_ap; cout<<"% de los alumnos aprobaron y el "<<p_des; cout<<"% de los alumnos desaprobaron";
 
     getch();
 }
